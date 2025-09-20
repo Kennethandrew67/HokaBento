@@ -1,0 +1,15 @@
+.custom-alert {
+    background-color: rgba(255, 0, 0, 0.627); /* Change this to your desired color */
+    color: white; /* Optional: Change text color for better contrast */
+    padding: 15px; /* Optional: Add some padding */
+    border-radius: 5px; /* Optional: Add border radius for rounded corners */
+}
+
+.card {
+    margin-bottom: 20px;
+}
+.total-price {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #28a745; /* Bootstrap success color */
+}

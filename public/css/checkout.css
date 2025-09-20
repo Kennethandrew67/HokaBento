@@ -1,0 +1,43 @@
+.checkout-title {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.item-list {
+    margin-top: 20px;
+}
+
+.item {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 10px;
+}
+
+.item img {
+    max-width: 100px;
+    margin-right: 15px;
+}
+
+.item-details {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.item-info {
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+
+.item-info img {
+    max-width: 100px;
+    margin-right: 15px;
+}
+
+.subtotal {
+    text-align: right;
+    margin-left: 15px;
+    font-weight: bold;
+}

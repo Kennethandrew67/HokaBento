@@ -1,0 +1,128 @@
+@font-face {
+    font-family: 'Hokben';
+    src: url('/fonts/Super Kinds.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.red {
+    color: red;
+}
+
+.bg-red {
+    background-color: rgb(160, 0, 0);
+}
+
+.yellow {
+    color: yellow;
+}
+
+.title {
+    font-size: 5rem;
+    font-family: 'Hokben';
+    margin: 0;
+    text-shadow: 2px 4px 5px rgba(0, 0, 0, 0.5);
+}
+
+.navbar-title {
+    font-size: 1.75rem;
+    line-height: 0;
+    margin-bottom: 0;
+    margin-right: 2%;
+}
+
+input {
+    padding: 0.25rem 0.5rem;
+    border-radius: 0.5rem;
+    height: 3vh;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#navbar {
+    position: sticky;
+    top: 0;
+    overflow: hidden;
+    z-index: 99;
+}
+
+.navbar-nav {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-nav .nav-link {
+    color: white;
+    text-decoration: none;
+    position: relative;
+}
+
+.navbar-nav .nav-link::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background-color: yellow;
+    transition: width 0.3s;
+    position: absolute;
+    left: 50%;
+    bottom: 0px;
+    transform: translateX(-50%);
+}
+
+.navbar-nav .nav-link.active::after {
+    width: 30%;
+}
+
+.navbar-nav .nav-link:hover::after {
+    width: 40%;
+}
+
+.navbar-btn {
+    background-color: white;
+    font-weight: 800;
+    color: red;
+    font-weight: 600;
+    height: 2rem;
+    border: 0px;
+    border-radius: 0.25rem;
+    padding: 0 1rem 0 1rem;
+}
+
+.navbar-btn:hover {
+    background-color: rgb(194, 181, 181);
+}
+
+.nav-item .profile-picture {
+    height: 5vh;
+    width: 5vh;
+    margin: 0;
+    border-radius: 2rem;
+}
+
+.flex {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.quantity-container {
+    display: flex;
+}
+
+.quantity-container label {
+    margin-right: 0.5rem;
+    font-size: 0.9rem;
+}
+
+.quantity-input {
+    width: 3rem; /* Adjust the width as needed */
+    padding: 0.2rem;
+    text-align: center;
+    font-size: 0.9rem;
+}
+
